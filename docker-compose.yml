@@ -1,0 +1,10 @@
+version: '3.7'
+services:
+  php7.4-fpm-service:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: 'php7.4-fpm-image'
+    container_name: php7.4-fpm-container
+    ports:
+      - 9000:80
