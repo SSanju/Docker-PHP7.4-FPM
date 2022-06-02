@@ -28,6 +28,8 @@ RUN apt install zlib1g-dev  -y  \
     curl \
     php-sysvsem \
     php-gd \
+    php-pgsql \
+    php-mysql \
     unzip
 
 RUN apt install libxrender-dev libxrender1 libfontconfig1 -y
